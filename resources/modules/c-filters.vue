@@ -90,14 +90,10 @@
                     </feComponentTransfer>
 
                     <feComposite in="noise_chroma" in2="SourceAlpha" operator="in" result="final"/>
-
-
-
-
                 </filter>
             </defs>
 
-            <rect width="100vw" height="100vh" fill="black"/>
+            <rect width="100%" height="100%" fill="black"/>
             <g filter="url(#binary_filter)" :style="style">
                 <text class="binaire" x="50" y="25" text-anchor="middle">BINAIRE</text>
             </g>
