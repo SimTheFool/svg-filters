@@ -14,7 +14,7 @@ var configDefault =
         path: path.resolve('./public/'),
         filename: '[name].js'
     },
-    watch: true,
+    watch: false,
     module: 
     {
         rules: [
